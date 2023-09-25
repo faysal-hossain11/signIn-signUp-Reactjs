@@ -20,8 +20,8 @@ const Login = () => {
     }
     return (
         <div>
-            <h1>login</h1>
-            <div>
+            <div className='w-[400px] py-10 px-6 bg-slate-500 rounded-md'>
+                <h1>login</h1>
                 <form onSubmit={handleLoginSubmit}>
                     <div>
                         <label>UserName</label>
